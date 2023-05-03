@@ -3,7 +3,7 @@
 int main () {
     float velocidadeVia, velocidadeVeiculo, diferenca;
     float multa = 0;
-    float pontos = 0;
+    pontos pontos = 0;
 
     scanf("%f%f", &velocidadeVia, &velocidadeVeiculo);
 
@@ -21,7 +21,7 @@ int main () {
           multa = 880.41;
           pontos = 7;
     }
-    printf("\n%.2f\n%f\n", multa, pontos);
+    printf("\n%.2f\n%d\n", multa, pontos);
     
  return 0;
 }
