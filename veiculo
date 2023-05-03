@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main () {
+    float velocidadeVia, velocidadeVeiculo, diferenca;
+    float multa = 0;
+    float pontos = 0;
+
+    scanf("%f%f", &velocidadeVia, &velocidadeVeiculo);
+
+    diferenca = velocidadeVeiculo / velocidadeVia;
+
+    if (diferenca > 1) {
+           multa = 130.16;
+           pontos = 4;
+    }
+    else if (diferenca <= 1.5) {
+           multa = 195.23;
+           pontos = 5;
+    }
+    else {
+          multa = 880.41;
+          pontos = 7;
+    }
+    printf("\n%.2f\n%f\n", multa, pontos);
+    
+ return 0;
+}
