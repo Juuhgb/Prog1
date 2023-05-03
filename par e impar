@@ -10,12 +10,12 @@ int main (){
              printf("Positivo par\n");
             }
          else {
-             printf("Negativo impar\n");
+             printf("Positivo impar\n");
             }
     }
     else {
         if (x % 2 == 0) {
-            printf("Positivo par\n");
+            printf("Negativo par\n");
         }
         else {
             printf("Negativo impar\n");
