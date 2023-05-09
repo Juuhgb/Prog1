@@ -1,21 +1,20 @@
- #include <stdio.h>
- #define Pi 3.1415
+#include <stdio.h>
+#include <ctype.h>
 
-  int main () { 
-
-    double perimetro, area, raio;
-
-    printf("Escreva o raio do circulo: ");
+int main()
+{
+    char vogal, caractere;
     
-    scanf("%lf", &raio);
-
-    area = raio * Pi * raio;
-    perimetro = 2 * Pi * raio;
-
-
-    printf("Perimetro: ");
-    printf("%lf", perimetro);
-    printf(" Area: ");
-    printf("%lf", area);
+    printf("ESCREVA UMA LETRA\n");
+    scanf("%c", &caractere);
+     
+    vogal = tolower(caractere);
+    
+    if (vogal == 'a' || vogal == 'e'|| vogal == 'i' || vogal == 'o' || vogal == 'u'){
+    printf("vogal");
+    }
+    else {
+        printf("Nao eh uma vogal");
+    }
     return 0;
-  }
+}
