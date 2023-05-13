@@ -12,7 +12,6 @@
     area = raio * Pi * raio;
     perimetro = 2 * Pi * raio;
 
-
     printf("Perimetro: ");
     printf("%lf", perimetro);
     printf(" Area: ");
