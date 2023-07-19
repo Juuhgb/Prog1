@@ -21,7 +21,7 @@ int main()
     reajusteSalario = salario * reajuste;
     valorFinal= salario + reajusteSalario;
     
-    printf("Seu reajuste: %.2f \n", reajuste);
+    printf("Seu reajuste: %.2f \n", reajusteSalario);
     printf("Salario reajustado: %.2f", valorFinal);
 
     return 0;
