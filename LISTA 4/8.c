@@ -13,9 +13,7 @@ void divisivel (int n){
 
 
 int main(){
-
-    int n;
+   int n;
    scanf("%d", &n);
-
    divisivel(n);
 }
