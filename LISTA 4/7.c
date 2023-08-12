@@ -13,7 +13,5 @@ int main(){
 
     tabuada(n);
 
-    
-  
   return 0;
 }
